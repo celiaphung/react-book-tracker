@@ -53,7 +53,7 @@ body, .app {
   bottom: 25px;
 }
 
-.open-search button {
+.open-search a {
   display: block;
   width: 50px;
   height: 50px;
@@ -68,7 +68,7 @@ body, .app {
   outline: 0;
 }
 
-.open-search button:hover {
+.open-search a:hover {
   background-color: rgb(0, 102, 0);
 }
 
@@ -80,7 +80,7 @@ body, .app {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 5;
+  z-index: 6;
   display: flex;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
 }
@@ -107,6 +107,7 @@ body, .app {
   background-image: url('./icons/arrow-back.svg');
   background-position: center;
   background-repeat: no-repeat;
+  background-color: white;
   background-size: 28px;
   font-size: 0;
   border: none;
